@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import "gophercises/quiz/functions"
 
 func main() {
-	fmt.Println("hello quiz")
+	//fmt.Println("hello quiz")
+	//functions.FrontPlate()
+	//functions.ExecuteInput()
+	functions.ChangeQuizName()
 }

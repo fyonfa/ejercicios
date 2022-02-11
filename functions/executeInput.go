@@ -12,21 +12,19 @@ const (
 	quit              = "4\n"
 )
 
-// ExecuteInput selects the action to do from the user
-func ExecuteInput() {
+// executeInput selects the action to do from the user
+func executeInput() {
+	frontPlate()
 	userInput, _ := readInput()
 	fmt.Println("====", userInput)
 
 	switch userInput {
 	case changeNameCsv:
-		fmt.Println("this is change name csv")
-
+		changeQuizName()
 	case numberOfQuestions:
-		fmt.Println("this is number of questions")
-
+		displayNumberOfQuestions()
 	case play:
-		fmt.Println("you have chosen to play")
-
+		playGame()
 	case quit:
 		log.Fatalln("Has salido del juego")
 	default:

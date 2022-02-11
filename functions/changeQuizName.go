@@ -8,7 +8,7 @@ import (
 )
 
 // changeQuizName will display the current name of the file and will change it if required
-func ChangeQuizName() {
+func changeQuizName() {
 
 	// get the current name of the file
 	currentName := getCurrentName()

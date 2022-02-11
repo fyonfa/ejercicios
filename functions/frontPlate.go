@@ -4,8 +4,8 @@ import (
 	"fmt"
 )
 
-// FrontPlate will generate a front plate of options to the user
-func FrontPlate() {
+// frontPlate will generate a front plate of options to the user
+func frontPlate() {
 	fmt.Println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n" +
 		"Hi, welcome to the quiz. this are the options, press enter after selection:\n" +
 		"1 - to change name of folder\n" +
